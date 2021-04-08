@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<section class="my-5">
+    <div class="container">
+        <h1>Report</h1>
+      
+        <ul>
+            <li>
+                {% for report in reports %}
+
+                {{report.title}}
+                <a href="{{ report.files.url }}">Click Here!</a>
+                
+
+            </li>
+        </ul>
+
+        {% endfor %}
+
+    </div>
+</section>
+
+{% endblock %}
