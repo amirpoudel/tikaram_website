@@ -1,0 +1,19 @@
+
+#header{
+    text-align: center;
+  
+   padding: 20px;
+    margin-top: 50px;
+}
+#header h5{
+    font-size: 50px;
+    color: #0c1196;
+}
+.card-img-top{
+    height: 225px;
+    width: auto;
+}
+.carousel img{
+    height: 672px;
+    width: 100%;
+}

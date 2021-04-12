@@ -1,14 +1,27 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<link rel="stylesheet" href="../static/css/contact.css">
 <section class="">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 py-5">
-                <h5 class="text-uppercase mb-0 pt-5">Contact Us</h5>
+            <div class="container col-lg-6 map">
+                <div>
+                    <h1 id="location-header">Location</h1>
+                    <iframe id="map"
+                        src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1432.520928436968!2d85.32099475241768!3d27.705630773282746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d27.705623499999998!2d85.3208416!5e0!3m2!1sen!2snp!4v1613485032883!5m2!1sen!2snp"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
 
-                <ul class="list-unstyled py-3">
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+                <h1 id="header">Contact Us</h1>
+
+                <ul class="list-unstyled info">
                     <li class="py-1">
                         <span class="text-dark display">Bagbazzar, Opposite PK College</span>
 
@@ -24,27 +37,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-6 py-5">
-                <div>
-                    <h1 class="py-5">Location</h1>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1432.520928436968!2d85.32099475241768!3d27.705630773282746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d27.705623499999998!2d85.3208416!5e0!3m2!1sen!2snp!4v1613485032883!5m2!1sen!2snp"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-
-
-                </div>
-
-            </div>
-
+            
         </div>
 
 
 
 
     </div>
-    </div>
-    </div>
+   
 </section>
 
 

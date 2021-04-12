@@ -1,0 +1,23 @@
+
+/* Navbar */
+
+.navbar{
+    border-radius: 10px;
+    background-color:#0c1196;
+    
+}
+.navbar a{
+    color: white;
+}
+.nav-link{
+    margin: 5px;
+}
+.navbar a:hover{
+    color: red;
+    
+}
+
+/* Footer */
+#footer{
+    background-color: #007CC7;
+}
