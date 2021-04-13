@@ -1,6 +1,13 @@
+/* Body */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Location */
 #map{
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
 }
 .map{
@@ -9,14 +16,17 @@
 }
 #location-header{
     margin-top: 30px;
+    
 }
 /* Contact Us */
 
 #header{
     justify-content: center;
     text-align: center;
-    margin-top: 70px;
-    font-size: 30px;
+    margin-top: 292px;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: -15px;
 
 }
 .info{
@@ -25,11 +35,15 @@
     margin-top: 30px;
 }
 .info li{
-    font-size: 25px;
+    font-size: 20px;
 }
+div ul li{
+    color: black;
+    
+}
+div ul li h2{
+    font-size: 1.2rem;
+}
+
 /* utilities */
 
-
-body{
-    background-color: teal;
-}

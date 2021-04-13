@@ -1,5 +1,6 @@
-body{
-    background-color:white;
+#service{
+    margin-top: -35px;
+    
 }
 #header{
     text-align: center;
@@ -9,7 +10,7 @@ body{
 }
 #header h5{
     font-size: 50px;
-    color: #0c1196;
+    color: #151061;
 }
 .card-img-top{
     height: 225px;

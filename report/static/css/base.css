@@ -2,22 +2,47 @@
 /* Navbar */
 
 .navbar{
-    border-radius: 10px;
-    background-color:#0c1196;
+    
+    background-color:#151061;
     
 }
-.navbar a{
+
+.navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+}
+.navbar ul li a:hover{
+    
+    border-radius: 20px;
+    background-color: white;
+    color: #151061;
+    
+}
+#home-btn{
     color: white;
 }
 .nav-link{
     margin: 5px;
 }
-.navbar a:hover{
-    color: red;
-    
-}
+
 
 /* Footer */
 #footer{
-    background-color: #007CC7;
+    background-color: #151061;
+    color: white;
+}
+#footer li{
+    color: white;
+}
+#footer div a{
+    color: white;
+}
+#footer #facebook:hover{
+    
+    border-radius: 5px;
+    background-color: white;
+    
+    color: #151061;
 }

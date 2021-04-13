@@ -1,13 +1,20 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    
+    margin-top: -86px;
+}
 #header{
     text-align: center;
   
    padding: 20px;
     margin-top: 50px;
 }
-#header h5{
+header h1{
     font-size: 50px;
-    color: #0c1196;
+    color:#151061;
 }
 .card-img-top{
     height: 225px;
@@ -17,3 +24,5 @@
     height: 672px;
     width: 100%;
 }
+
+
