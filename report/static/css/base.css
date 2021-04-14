@@ -1,9 +1,11 @@
 
 /* Navbar */
 
+
 .navbar{
     
     background-color:#151061;
+    
     
 }
 
@@ -26,6 +28,7 @@
 .nav-link{
     margin: 5px;
 }
+
 
 
 /* Footer */

@@ -20,7 +20,7 @@ from django.conf import settings
 from report import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('samrat-admin-414-sntrc/', admin.site.urls),
     path('',views.home , name='home'),
     path('service/', views.service , name='service'),
     path('about/', views.about, name='about'),

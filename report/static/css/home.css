@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 #home{
     
     margin-top: -86px;
@@ -9,7 +10,7 @@
 #header{
     text-align: center;
   
-   padding: 20px;
+    padding: 20px;
     margin-top: 50px;
 }
 header h1{
@@ -21,7 +22,7 @@ header h1{
     width: auto;
 }
 .carousel img{
-    height: 672px;
+    height: 510px;
     width: 100%;
 }
 
